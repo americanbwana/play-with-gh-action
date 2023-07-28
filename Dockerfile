@@ -5,7 +5,7 @@ LABEL version="1.0"
 LABEL description="Image for VMW CodeStream Pipelines using Terraform"
 LABEL tfversion="1.5.4"
 ENV DEBIAN_FRONTEND=noninteractive
-LABEL org.opencontainers.image.description "Image for VMW CodeStream Pipelines using Terraform"
+LABEL org.opencontainers.image.description="Image for VMW CodeStream Pipelines using Terraform"
 # build command on ARM Mac for linux/amd64
 # docker buildx build --platform linux/amd64 -t americanbwana/cas-terraform-146:latest --push .
 

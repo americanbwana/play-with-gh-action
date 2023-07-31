@@ -12,7 +12,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 
 WORKDIR /build
-RUN apt-get update && apt-get install -y git unzip wget curl gnupg software-properties-common && \
+RUN apt-get update && apt-get install -y git unzip wget curl gnupg software-properties-common  jq && \
     rm -rf /var/lib/apt/lists/* && \
     apt-get purge -y
 

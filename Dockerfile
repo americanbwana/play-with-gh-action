@@ -1,10 +1,10 @@
 # Pull base image.
 FROM ubuntu:latest
-LABEL maintainer="Dana Gertsch"
-LABEL version="1.0"
-LABEL description="Image for VMW CodeStream Pipelines using Terraform"
-LABEL tfversion="1.5.4"
-LABEL org.opencontainers.image.description="Image for VMW CodeStream Pipelines using Terraform"
+LABEL maintainer="Dana Gertsch" \
+    version="1.0" \
+    description="Image for VMW CodeStream Pipelines using Terraform" \
+    tfversion="1.5.4" \
+    org.opencontainers.image.description="Image for VMW CodeStream Pipelines using Terraform"
 ENV DEBIAN_FRONTEND=noninteractive
 
 # build command on ARM Mac for linux/amd64
